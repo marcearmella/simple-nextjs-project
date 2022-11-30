@@ -1,2 +1,4 @@
 <h1 align='center'>Simple Project made with **Next Js**</h1>
-Other simple project to test the features of Next Js 12.
+<br><br>
+
+I'm using this repository to practice what i learned about Next Js, making a simple project using this **React framework**. I'm currently using the latest version **Next.js 13** but only with the features of **Next.js 12**. I have another repository using the new features that **Next.js 13** brings, [here](https://github.com/marcearmella/nextjs-13-new-features).
