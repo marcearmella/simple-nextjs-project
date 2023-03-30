@@ -1,4 +1,5 @@
 import { Layout } from 'components/Layout';
+import { search } from 'services/search.js';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -32,7 +33,7 @@ export async function getServerSideProps(context){
     const { query } = context;
     const { q = '' } = query;
 
-    const results = await fetch('http://localhost:3000/api/search?q=' + q).then(res => res.json());
+    const { results } = await search({ query: q });
 
     return{
         props: {

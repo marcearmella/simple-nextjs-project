@@ -6,7 +6,7 @@ export function Layout({children}){
         <>
             <Header />
 
-            <main className="max-w-xl m-auto">
+            <main className="max-w-2xl m-auto">
                 {children}
             </main>
 

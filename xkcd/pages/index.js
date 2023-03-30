@@ -15,7 +15,7 @@ export default function Home({latestComics}) {
 
       <Layout>
         <h2 className='text-3xl font-bold text-center mb-10'>Latest Comics</h2>
-        <section className='grid grid-cols-1 gap-2 max-w-md m-auto md:grid-cols-2 lg:grid-cols-3'>
+        <section className='grid grid-cols-1 gap-2 max-w-xl m-auto md:grid-cols-2 lg:grid-cols-3'>
           {
             latestComics.map(comic => {
               return (
